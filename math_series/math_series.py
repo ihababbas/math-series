@@ -1,5 +1,7 @@
 import pytest
- ## Recursive Solution 
+ ## Recursive Solution
+ # 0, 1, 1, 2, 3, 5, 8, 13, 21 ,34 ,55,89,144,233,377,610   fibonacci
+# 2, 1, 3, 4, 7, 11, 18, 29, 47,76,123,199,322,521,843,1364    lucas 
 def Fibonacci(n): 
     if n<0: 
         # the first input must be 0
